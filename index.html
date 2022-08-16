@@ -480,12 +480,15 @@
 <script>
   $(".toggle-nav").click(function(){
     $(".overlay").addClass("overlay-show");
-    $("#navbarNavAltMarkup").addClass("navbarNav")
+    $("#navbarNavAltMarkup").addClass("navbarNav");
+    $(".header").addClass("header-show");
   });
   $(".close-menu").click(function(){
     $(".overlay").removeClass("overlay-show");
-    $("#navbarNavAltMarkup").removeClass("navbarNav")
+    $("#navbarNavAltMarkup").removeClass("navbarNav");
+    $(".header").removeClass("header-show");
   });
+  
 </script>
 </body>
 </html>
