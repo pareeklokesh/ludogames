@@ -5,7 +5,7 @@ body {
 .banner {
   background: url('../img/banner.jpg') no-repeat;
   background-size: cover;
-  min-height: 600px;
+  min-height: 755px;
 }
 .header {
   position: absolute;
