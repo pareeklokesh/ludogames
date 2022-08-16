@@ -446,6 +446,25 @@ display: flex;align-items: center;margin-bottom: 8px;
 .testimonial .owl-stage-outer, .testimonial .owl-stage, .testimonial .owl-item {
   position: static !important;
 }
+.social-footer {
+  margin-bottom: 25px;
+}
+.social-footer ul li a {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-footer ul li a:hover {
+  background: #ffc311;border-color: #ffc311;
+}
+.social-footer ul li a i {font-size: 16px;}
+.social-footer ul li a:hover i {
+  color: #111111;
+}
 
 
 @media (max-width: 991px) {
