@@ -209,9 +209,9 @@ color: #fff;
   overflow: hidden;box-shadow: 0 0 3rem rgba(0, 0, 0, 0.23);
   cursor: pointer;
 }
-.featuredgames:hover .game-bottom {
+/*.featuredgames:hover .game-bottom {
   transform: translatey(280%);
-}
+}*/
 .game-ovelay-content {
   transform: translatex(230%);
   top: 0;
