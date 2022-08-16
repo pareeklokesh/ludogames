@@ -1,0 +1,447 @@
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+.banner {
+  background: url('../img/banner.jpg') no-repeat;
+  background-size: cover;
+  min-height: 755px;
+}
+.header {
+  position: absolute;
+  top: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.social-nav ul li a i {
+  color: #fff;
+  font-size: 1.04rem;
+  transition: 0.3s;
+  vertical-align: middle;
+}
+.social-nav ul li {
+  padding-left: 15px;
+}
+a {
+  text-decoration: none;transition: 0.3s;
+}
+.social-nav ul li.login a {
+  padding: 5px 8px;
+  color: #fff;line-height: normal;font-size: 12px;
+}
+.social-nav ul li.login {
+  background: #ffc311;
+  border-radius: 26px;
+  padding: 0 10px;
+  margin-left: 30px;
+}
+.social-nav ul li.login a:first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+.header-nav ul li a {
+  color: #fff;
+  font-size: 14px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  transition: 0.3s;
+}
+.header-nav ul li:last-child a {
+  padding-right: 0px !important;
+}
+.header-nav ul li a:hover, .social-nav ul li a:hover i {
+  color: #ffc311;
+}
+.ourgames-content {
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.23);
+  padding: 50px;
+  background: url('../img/box-1-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+.ourgames-content::before, .soccer::before {
+  content: '';
+display: block;
+background: #000000;
+opacity: 0.5;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+}
+.top-title {
+  color: #ffc311;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1rem;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.main-title {
+  line-height: 2.154rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 34px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 800;
+}
+.ourgames-content p {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.btn-all {
+  border: 0px !important;
+  border-bottom: 2px solid #ffc311 !important;
+  border-radius: 0;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+  padding: 13px 25px;
+  color: #ffc311;
+  font-size: 17px;transition: 0.3s;
+  position: relative;
+  z-index: 1;
+  box-shadow: none !important;
+outline: none !important;
+}
+.btn-all::before, .btn-all:visited::before {
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  bottom: 0;
+  left: 0;
+  content: '';
+  display: block; 
+  transition: 0.3s;
+  background: #ffc311;
+  z-index: -1;
+  }
+.btn-all:hover::before {
+    height: 100%;
+transition: 0.3s;
+z
+  }
+.btn-all:hover {
+  color: #fff;
+}
+.p-90 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.soccer {
+  background: url('../img/fifa-release-bg.jpg');
+  background-size: cover;
+background-position: center;
+position: relative;
+  z-index: 1;
+}
+.soccer::before {
+  background: #000000;
+opacity: 0.6;
+z-index: -1;
+}
+.section-title {
+  font-size: 49px;
+  color: #282828;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 35px;
+  line-height: 48px;
+}
+.section-title span {
+  color: #ffc311;
+}
+.soccer p {
+  font-size: 12px;
+  line-height: 24px;
+}
+.soccer img {
+  padding: 0 20px;
+}
+.f-family {
+  font-family: 'Titillium Web', sans-serif;
+}
+.game-bottom {
+  position: absolute;
+  bottom: 2.308rem;
+left: 1.308rem;
+right: 1.308rem;
+}
+.game-bottom h2 {
+  font-size: 1.846rem;
+line-height: 1.846rem;
+text-transform: uppercase;
+font-weight: 800;
+margin-bottom: 1.385rem;
+color: #fff;
+}
+.game-details li a {
+  font-size: 10px;color: #fff;
+}
+.game-details li a i {
+  font-size: 14px;
+  margin-right: 5px;
+  vertical-align: middle;
+  color: #ffc311;
+}
+.featuredgames * {
+  transition: 0.6s;
+}
+.game-ovelay {
+  background: rgba(255, 195, 17, 0.6);
+  left: 0;
+  top: 0;
+  transform: translatey(-230%);
+}
+.game-ovelay-content h3 {
+  font-size: 22px;
+  text-transform: uppercase;font-weight: 800;
+}
+.featuredgames {
+  overflow: hidden;box-shadow: 0 0 3rem rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+}
+/*.featuredgames:hover .game-bottom {
+  transform: translatey(280%);
+}*/
+.game-ovelay-content {
+  transform: translatex(230%);
+  top: 0;
+  left: 0;
+}
+.featuredgames:hover .game-ovelay, .featuredgames:hover .game-ovelay-content {
+transform: translate(0);
+}
+.featured .col-md-3 {
+  margin-bottom: 35px;
+}
+.social-media {
+  list-style: none;
+  padding: 0;flex-wrap: wrap;
+}
+.social-media li {
+  text-align: center;
+}
+.social-media li a span {
+  display: block;
+}
+.social-media li a i {
+  color: #ffc311;
+  font-size: 43px;
+line-height: 43px;
+margin-bottom: 20px;
+display: block;
+}
+.social-media li a span {
+  color: #282828;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 600;
+display: block;
+transition: 0.3;
+}
+.social-media li a:hover span {
+  color: #ffc311;
+}
+.footer {
+  background: #111111;
+}
+.footer-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  line-height: normal;
+}
+.quicklink {
+  padding: 0;list-style: none;
+}
+.quicklink li {
+  display: block;margin-bottom: 10px;
+}
+.quicklink li:last-child {
+  margin: 0;
+}
+.quicklink li a {
+  color: #fff;font-size: 13px;
+  position: relative;
+}
+.quicklink li a::before{
+  content: '';
+display: inline-block;
+border-right: 5px solid transparent;
+border-left: 5px solid #ffc311;
+border-bottom: 5px solid transparent;
+border-top: 5px solid transparent;
+margin-right: 10px;
+}
+.download-link {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.download-link li {
+  width: 50%;
+  padding: 0 8px 8px 8px;
+}
+.download-link li a {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  justify-content: center;padding: 13px 5px;
+}
+.download-link li a {
+  font-size: 12px;color: #fff;
+}
+.download-link li a strong {
+  display: block;
+}
+.download-link li a i {
+  font-size: 22px;
+  margin-right: 12px;
+}
+.download-link li a:hover {
+  background: #ffc311;
+  border-color: #ffc311;
+}
+.footer ul {margin: 0px;}
+.quicklink li a:hover {
+  color: #ffc311;
+}
+.menu-mobile button span {
+  width: 32px;
+  height: 1px;
+  display: block;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: -900px;
+  height: 100vh;
+  background: #000;
+  width: 100%;
+  opacity: 0.7;
+  transition: .3s linear;
+}
+.overlay-show {
+  left: 0;
+}
+.close-menu {
+  background-color: #282828;
+text-align: center;
+width: 45px;
+height: 45px;
+color: #FFFFFF;
+font-size: 18rem;
+font-weight: 200;
+cursor: pointer;
+position: absolute;
+right: 0;
+top: 0;
+}
+.close-menu::before {
+  content: 'X';
+  font-size: 21px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+.quickcontent {
+  background: #282828;
+  padding: 30px 15px;border-radius: 5px;
+}
+.quickcontent h2 {
+  font-weight: 800;font-size: 22px;
+  margin: 15px 0;
+}
+.quicklist {
+  list-style: none;
+  margin-bottom: 0;
+}
+.quicklist li {
+  font-size: 14px;
+line-height: 24px;
+display: flex;align-items: center;margin-bottom: 8px;
+}
+.quicklist li:last-child {margin: 0;}
+.star {
+  background: #ffc311;
+  width: 20px;
+  height: 20px;
+  display: block;margin-right: 8px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+@media (max-width: 991px) {
+  .menu-mobile, .mobilenone {
+    display: block !important;
+  }
+  .rightsidemenu {
+  position: absolute;
+  width: 100% !important;
+  left: 0;
+  top: 100%;
+}
+#navbarNavAltMarkup {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: -990px;
+  width: 85%;
+  transition: .8s linear;
+  height: 100vh !important;
+  transform: none !important;
+  padding: 0 30px;
+  padding-top: 48px;
+  display: block; !important;
+  visibility: hidden;
+}
+.header-nav ul li a {
+  color: #252525;
+  padding: 10px 0 !important;
+}
+#navbarNavAltMarkup.navbarNav {
+  left: 0 !important;
+  visibility: visible;
+}
+.header-nav ul li {
+  display: block;
+  width: 100%;
+}
+.header-nav ul li a {
+  color: #282828;
+  padding: 10px 0 !important;
+  border-bottom: 1px solid #EEE;
+  font-size: 13px;
+}
+.header-nav ul li:last-child a {
+  border-bottom: 0;
+}
+.menu-mobile .toggle-nav {
+  transition: .3s linear;
+}
+.header-show .menu-mobile .toggle-nav {
+  transform: translateY(-495%);
+}
+.social-nav ul li a i {
+  color: #282828;
+}
+.social-nav ul li {
+  width: auto !important;
+}
+
+}
