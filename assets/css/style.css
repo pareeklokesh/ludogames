@@ -172,8 +172,8 @@ z-index: -1;
 .game-bottom {
   position: absolute;
   bottom: 2.308rem;
-left: 2.308rem;
-right: 2.308rem;
+left: 1.308rem;
+right: 1.308rem;
 }
 .game-bottom h2 {
   font-size: 1.846rem;
@@ -220,7 +220,7 @@ color: #fff;
 .featuredgames:hover .game-ovelay, .featuredgames:hover .game-ovelay-content {
 transform: translate(0);
 }
-.featured .col-md-4 {
+.featured .col-md-3 {
   margin-bottom: 35px;
 }
 .social-media {
