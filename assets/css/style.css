@@ -403,5 +403,11 @@ top: 0;
   border-bottom: 1px solid #EEE;
   font-size: 13px;
 }
+.menu-mobile .toggle-nav {
+  transition: .3s linear;
+}
+.header-show .menu-mobile .toggle-nav {
+  transform: translateY(-495%);
+}
 
 }
