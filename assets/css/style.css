@@ -528,3 +528,41 @@ display: flex;align-items: center;margin-bottom: 8px;
 }
 
 }
+
+
+@media (max-width: 767px) {
+  .quickcontent {
+  margin-bottom: 15px;
+}
+.testimonial {
+  margin: 50px 0;
+}
+.social-media li {
+  padding-bottom: 30px;width: 33%;
+}
+.social-media li a span {
+  font-size: 12px;
+}
+.social-media li a i {
+  font-size: 30px;
+}
+.quicklink {
+  padding-bottom: 15px;
+}
+.quicklink:last-child {
+  padding-left: 0 !important;
+}
+.soccer img {
+  padding: 0;
+  margin-top: 30px;
+}
+.section-title {
+  font-size: 28px;
+  line-height: normal;
+}
+.banner {
+  min-height: 500px;
+}
+
+
+}
