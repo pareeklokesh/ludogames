@@ -468,6 +468,16 @@ display: flex;align-items: center;margin-bottom: 8px;
   color: #111111;
 }
 
+/*About us*/
+.header-othepage {
+  position: static;background: #111111;
+}
+.content {
+  line-height: 28px;
+}
+
+/*About us End!*/
+
 
 @media (max-width: 991px) {
   .menu-mobile, .mobilenone {
